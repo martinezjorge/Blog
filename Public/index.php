@@ -8,6 +8,8 @@
 
         if($firstName == 'Jorge' && $lastName == 'Martinez'){
             $output = 'Welcome, oh glorious leader!';
+        } else if ($firstName == 'Ronald' && $lastName == 'Reyes') {
+            $output = 'Welcome, oh glorious leader!';
         } else {
             $output = 'Welcome to your website, ' .
                 htmlspecialchars($firstName, ENT_QUOTES, 'UTF-8') . ' ' . 
